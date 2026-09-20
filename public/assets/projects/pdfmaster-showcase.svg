@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#06162c"/><stop offset=".55" stop-color="#0b1230"/><stop offset="1" stop-color="#1a0b27"/></linearGradient>
+  <linearGradient id="accent" x1="110" y1="95" x2="1040" y2="590" gradientUnits="userSpaceOnUse"><stop stop-color="#35ecff"/><stop offset=".48" stop-color="#6572ff"/><stop offset="1" stop-color="#d65cff"/></linearGradient>
+  <linearGradient id="screen" x1="300" y1="220" x2="850" y2="590" gradientUnits="userSpaceOnUse"><stop stop-color="#eaf3ff"/><stop offset="1" stop-color="#cad9f6"/></linearGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="700" rx="34" fill="url(#bg)"/>
+<circle cx="1100" cy="110" r="170" fill="#6f51ff" opacity=".12"/>
+<circle cx="120" cy="610" r="200" fill="#1ce7ff" opacity=".08"/>
+<g filter="url(#shadow)"><rect x="182" y="170" width="780" height="420" rx="20" fill="#09111f" stroke="#43eaff" stroke-opacity=".58"/><rect x="198" y="186" width="748" height="388" rx="14" fill="url(#screen)"/></g>
+<rect x="220" y="209" width="150" height="342" rx="10" fill="#111c36"/>
+<text x="246" y="245" fill="#ffffff" font-size="24" font-family="Arial" font-weight="700">PDFMaster</text>
+<text x="246" y="272" fill="#7f96be" font-size="12" font-family="Arial">DOCUMENT UTILITY</text>
+<g font-family="Arial" font-size="12" fill="#d7e7ff">
+  <rect x="238" y="300" width="113" height="34" rx="7" fill="#6b63ff"/><text x="256" y="322">Dashboard</text>
+  <text x="252" y="365">Merge PDF</text><text x="252" y="402">Split PDF</text><text x="252" y="439">Compress</text><text x="252" y="476">Convert PDF</text><text x="252" y="513">Manage Files</text>
+</g>
+<text x="404" y="249" fill="#23345a" font-size="13" font-family="Arial">WELCOME TO</text>
+<text x="404" y="286" fill="#171f32" font-size="34" font-family="Arial" font-weight="700">PDFMaster</text>
+<text x="404" y="311" fill="#586989" font-size="13" font-family="Arial">All your PDF tools in one place.</text>
+<g>
+  <rect x="404" y="344" width="158" height="72" rx="11" fill="#ffffff" stroke="#dae4f6"/><rect x="579" y="344" width="158" height="72" rx="11" fill="#ffffff" stroke="#dae4f6"/><rect x="754" y="344" width="158" height="72" rx="11" fill="#ffffff" stroke="#dae4f6"/>
+  <rect x="404" y="431" width="158" height="72" rx="11" fill="#ffffff" stroke="#dae4f6"/><rect x="579" y="431" width="158" height="72" rx="11" fill="#ffffff" stroke="#dae4f6"/><rect x="754" y="431" width="158" height="72" rx="11" fill="#ffffff" stroke="#dae4f6"/>
+</g>
+<g font-family="Arial" font-size="12" font-weight="700" fill="#222b3f">
+ <text x="448" y="375">Merge PDF</text><text x="621" y="375">Split PDF</text><text x="788" y="375">Compress PDF</text><text x="445" y="462">Convert PDF</text><text x="620" y="462">Manage PDF</text><text x="799" y="462">View PDF</text>
+</g>
+<g font-family="Arial" font-size="11" fill="#71809a">
+ <text x="444" y="397">Combine documents</text><text x="617" y="397">Extract pages</text><text x="791" y="397">Reduce file size</text><text x="444" y="484">Change format</text><text x="617" y="484">Organize files</text><text x="796" y="484">Quick preview</text>
+</g>
+<g filter="url(#glow)"><circle cx="1025" cy="204" r="76" fill="#a96bff" opacity=".20"/><path d="M981 187 1030 139l71 24-15 106-70 18-36-54Z" fill="#eef2ff" stroke="#8f7dff"/><rect x="1013" y="166" width="74" height="50" rx="8" fill="#ef465b" transform="rotate(8 1013 166)"/><text x="1025" y="199" fill="white" font-size="24" font-family="Arial" font-weight="700">PDF</text></g>
+<text x="70" y="88" fill="white" font-size="31" font-family="Arial" font-weight="700">PDF<tspan fill="#6d7cff">Master</tspan></text>
+<text x="72" y="121" fill="#7ca9ff" font-size="12" font-family="Arial" letter-spacing="5">SMART DOCUMENT WORKFLOWS</text>
+<path d="M76 174c44-40 84-56 116-48" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+<g font-family="Arial" fill="#b8c9e6" font-size="16"><text x="73" y="216">Merge</text><text x="73" y="252">Split</text><text x="73" y="288">Compress</text><text x="73" y="324">Convert</text></g>
+<circle cx="76" cy="209" r="4" fill="#35ecff" filter="url(#glow)"/><circle cx="76" cy="245" r="4" fill="#6572ff" filter="url(#glow)"/><circle cx="76" cy="281" r="4" fill="#d65cff" filter="url(#glow)"/>
+<text x="1025" y="633" fill="#7fa1c7" font-size="12" font-family="Arial" letter-spacing="4">SIMPLE • FAST • SECURE</text>
+</svg>
