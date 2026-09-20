@@ -13,7 +13,7 @@ export const portfolioData = {
   linkedin: 'https://www.linkedin.com/in/ritesh-kumar-58b47a285/',
   gmail: 'https://mail.google.com/mail/?view=cm&fs=1&to=riteshspl005@gmail.com',
   resume: 'https://drive.google.com/file/d/1aQorKbOm7bzfX-NEScr6rvk4RMhIgylX/view?usp=sharing',
-  profileImage: '/assets/profile/profile.jpg',
+  profileImage: `${import.meta.env.BASE_URL}assets/profile/profile.jpg`,
   education: [
     {
       institution: 'Chandigarh University, Punjab',
@@ -58,7 +58,7 @@ export const portfolioData = {
       github: '',
       liveDemo: '',
       media: '',
-      poster: '/assets/projects/pdfmaster-showcase.svg',
+      poster: `${import.meta.env.BASE_URL}assets/projects/pdfmaster-showcase.svg`,
       mediaAlt: 'PDFMaster project showcase visual'
     },
     {
@@ -71,7 +71,7 @@ export const portfolioData = {
       github: '',
       liveDemo: '',
       media: '',
-      poster: '/assets/projects/productiview-showcase.svg',
+      poster: `${import.meta.env.BASE_URL}assets/projects/productiview-showcase.svg`,
       mediaAlt: 'ProductiView project showcase visual'
     }
   ],
